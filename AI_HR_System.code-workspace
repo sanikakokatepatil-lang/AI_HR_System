@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../AI_HR_System"
+		},
+		{
+			"path": "../AI_HR_System/__pycache__"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "__pycache__"
+		},
+		{
+			"path": "migrations"
+		},
+		{
+			"path": "migrations/__pycache__"
+		},
+		{
+			"path": "templates"
+		},
+		{
+			"path": "templates/hr"
+		}
+	],
+	"settings": {}
+}
