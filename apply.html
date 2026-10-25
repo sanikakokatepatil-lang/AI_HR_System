@@ -1,0 +1,8 @@
+﻿<h1>Apply</h1>
+<form method="POST">
+{% csrf_token %}
+Name:<br><input name="name"><br><br>
+Email:<br><input type="email" name="email"><br><br>
+Resume:<br><textarea name="resume_text" rows="8" cols="40"></textarea><br><br>
+<button type="submit">Submit</button>
+</form>

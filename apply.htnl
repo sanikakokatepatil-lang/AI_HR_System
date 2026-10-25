@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html><head><title>Apply</title>
+<style>body{font-family:Arial;background:#f0f2f5;padding:20px} form{background:white;padding:20px;border-radius:10px}</style>
+</head><body>
+<h1>Apply for {{ job.title }}</h1>
+<form method="POST">{% csrf_token %}
+Name:<br><input type="text" name="name"><br><br>
+Email:<br><input type="email" name="email"><br><br>
+Resume Text:<br><textarea name="resume_text" rows="8" cols="40"></textarea><br><br>
+<button type="submit">Submit</button>
+</form>
+</body></html>
