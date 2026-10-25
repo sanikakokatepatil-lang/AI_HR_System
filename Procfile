@@ -1,2 +1,1 @@
-web: gunicorn
-AI_HR_System.wsgi:application
+web: gunicorn wsgi:application
